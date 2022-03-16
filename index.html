@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
-
-    <title>Antra SignUp Page</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Antra SignUp Page</title>
 <link rel="stylesheet" href="main.css">
   </head>
   <body>
@@ -11,32 +14,31 @@
 
     <form action="">
        <div class="name-block">
-        <input type="text" placeholder="First Name" name="fname"><br><br>
-        
-        <input type="text" placeholder="Last Name"><br><br>
+        <input type="text" placeholder="First Name" >  
+        <input type="text" placeholder="Last Name">
        </div>
        
-       <div class="info-block">
+
         <input type="tel" placeholder="Mobile No."/>   
         <input type="email" placeholder="Email Address"/>
         
-       </div>
+
        <div class="password-block">
         <input type="password" placeholder="Password" />
         <input type="password" placeholder="Confrim Password" />
        </div>
        <div class="check-box">
-           <label> <input type="checkbox" />Agree</label>
-       <span>By clicking <em>Register</em>, you agree to the <a href="#">Terms and Conditions</a>set out by this site, inluding our Cookie Use.</span>
+           <label> <input type="checkbox" /><span> I Agree</span></label>
+       <p class="terms">By clicking <em>Register</em>, you agree to the <a href="#">Terms and Conditions</a> set out by this site, including our Cookie Use.</p>
        </div>
       <div class=submit-block>
-        <input type="submit" value="Register">
-        <input type="submit" value="Sign In">
+        <input class="btn-register" type="submit" value="Register">
+        <input class="btn-submit" type="submit" value="Sign In">
 
       </div>
       </form>
     </div>
 
-    <footer>Footer</footer>
+  
   </body>
 </html>
